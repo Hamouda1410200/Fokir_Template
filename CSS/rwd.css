@@ -1,0 +1,243 @@
+/* X large screens  */
+@media screen and (min-width:1200px) and (max-width:1399px) {
+    .portfolio .items .container {
+        padding: 40px;
+    }
+
+    .blog .cards .container {
+        padding: 40px;
+    }
+}
+
+/*  large screens  */
+@media screen and (min-width:992px) and (max-width:1199px) {
+
+    .services .container {
+        padding: 0px;
+    }
+
+    .portfolio .items .container {
+        padding: 40px;
+    }
+
+    .portfolio .items .container .item {
+        width: 30%;
+    }
+
+    .blog .cards .container {
+        padding: 0px;
+    }
+
+    .blog .cards .container .card {
+        width: 30%;
+    }
+
+    .testi .card .left-card .image {
+        position: absolute;
+        top: 200%;
+        left: -50%;
+        -webkit-transform: translateY(-300px) translateX(25%);
+        -moz-transform: translateY(-300px) translateX(25%);
+        -ms-transform: translateY(-300px) translateX(25%);
+        -o-transform: translateY(-300px) translateX(25%);
+        transform: translateY(-300px) translateX(25%);
+
+    }
+
+    .testi .card {
+        width: 90%;
+    }
+}
+
+/* Medium screens  */
+
+@media screen and (min-width:768px) and (max-width:991px) {
+
+    nav {
+        visibility: hidden;
+    }
+
+    .services .container {
+        padding: 0px;
+    }
+
+    .services .items .container .item {
+        width: 50%;
+    }
+
+    .portfolio .items .container {
+        padding: 0px;
+    }
+
+    .portfolio .items .container .item {
+        width: 47%;
+        /* margin: 0; */
+    }
+
+    .blog .cards .container {
+        padding: 0px;
+    }
+
+    .blog .cards .container .card {
+        width: 100%;
+    }
+
+    .testi .card {
+        width: 90%;
+    }
+
+    .testi .card .left-card .image {
+        position: absolute;
+        top: 200%;
+        left: -50%;
+        -webkit-transform: translateY(-300px) translateX(25%);
+        -moz-transform: translateY(-300px) translateX(25%);
+        -ms-transform: translateY(-300px) translateX(25%);
+        -o-transform: translateY(-300px) translateX(25%);
+        transform: translateY(-300px) translateX(25%);
+
+    }
+
+    .contact .container {
+        padding: 40px;
+    }
+}
+
+/* Small screens  */
+@media screen and (min-width:567px) and (max-width:767px) {
+
+    nav {
+        visibility: hidden;
+
+    }
+
+    .about .container .left-about {
+        width: 100%;
+        padding: 30px;
+    }
+
+    .about .container .left-about .about-image {
+        border: none #333333 1px;
+        -webkit-border-radius: 4px;
+        -moz-border-radius: 4px;
+        border-radius: 4px;
+    }
+
+    .about .container .right-about {
+        width: 100%;
+        padding: 30px;
+    }
+
+    .services .items .container .item {
+        width: 100%;
+    }
+
+    .portfolio .items .container {
+        padding: 20px;
+    }
+
+    .portfolio .items .container .item {
+        width: 100%;
+        /* margin: 0; */
+    }
+
+    .blog .cards .container {
+        padding: 0px;
+    }
+
+    .blog .cards .container .card {
+        width: 100%;
+    }
+
+    .stats .container .stat {
+        width: 100%;
+    }
+
+    .testi .card {
+        width: 98%;
+    }
+
+    .contact .container {
+        padding: 30px;
+    }
+}
+
+/* X Small screens  */
+@media screen and (max-width:566px) {
+    nav {
+        visibility: hidden;
+    }
+
+    .about .container .left-about {
+        width: 100%;
+        padding: 0px;
+        margin-bottom: 50px;
+    }
+
+    .about .container .left-about .about-image {
+        border: none #333333 1px;
+        -webkit-border-radius: 4px;
+        -moz-border-radius: 4px;
+        border-radius: 4px;
+    }
+
+    .about .container {
+        padding: 20px;
+    }
+
+    .about .container .right-about {
+        width: 100%;
+        padding: 0px;
+    }
+
+    .services .container {
+        padding: 5px;
+    }
+
+    .services .items .container .item {
+        width: 100%;
+    }
+
+    .portfolio .items .container {
+        padding: 0px;
+    }
+
+    .portfolio .items .container .item {
+        width: 100%;
+        /* margin: 0; */
+    }
+
+    .blog .cards .container {
+        padding: 0px;
+    }
+
+    .blog .cards .container .card {
+        width: 100%;
+    }
+
+    .stats .container .stat {
+        width: 100%;
+    }
+
+    .testi .card {
+        width: 100%;
+        display: block;
+    }
+
+    .testi .card .left-card .image {
+        position: absolute;
+        top: 200%;
+        left: -50%;
+        -webkit-transform: translateY(-150px) translateX(100%);
+        -moz-transform: translateY(-150px) translateX(100%);
+        -ms-transform: translateY(-150px) translateX(100%);
+        -o-transform: translateY(-150px) translateX(100%);
+        transform: translateY(-150px) translateX(100%);
+
+    }
+
+    .contact .container {
+        padding: 15px;
+    }
+
+}
